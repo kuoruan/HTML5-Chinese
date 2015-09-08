@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>HTML5&lt;canvas&gt;标签 - HTML5中文手册 - HTML5中文网</title>
+<meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+<meta name="keywords" content="HTML5 canvas;,HTML5手册,HTML5中文手册,HTML5中文网" />
+<meta name="description" content="HTML5&lt;canvas&gt;标签,HTML5中文手册,HTML5中文网" />
+<link rel="stylesheet" type="text/css" href="css/c3.css">
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/autoheight.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<a title="HTML5中文网" href="http://www.html5china.com">HTML5中文网</a> <h1 class="logo">HTML5中文手册</h1>
+</div>  
+<div id="navsecond">
+<h2><a href="html5_ref_standardattributes.htm">HTML5标准属性</a></h2>
+<h2><a href="html5_ref_eventattributes.htm">HTML5事件属性</a></h2>
+<h2><a href="index.htm">HTML标签</a></h2>
+<ul class="small">
+  <li><a href="html5_comment.htm">&lt;!--&gt;</a> 
+  <li><a href="html5_doctype.htm">&lt;!DOCTYPE&gt;</a> 
+  <li><a href="html5_a.htm">&lt;a&gt;</a> 
+  <li><a href="html5_abbr.htm">&lt;abbr&gt;</a> 
+  <li><a href="html5_acronym.htm">&lt;acronym&gt;</a> 
+  <li><a href="html5_address.htm">&lt;address&gt;</a> 
+  <li><a href="html5_applet.htm">&lt;applet&gt;</a> 
+  <li><a href="html5_area.htm">&lt;area&gt;</a> 
+  <li><a href="html5_article.htm">&lt;article&gt;</a> 
+  <li><a href="html5_aside.htm">&lt;aside&gt;</a> 
+  <li><a href="html5_audio.htm">&lt;audio&gt;</a> 
+  <li><a href="html5_b.htm">&lt;b&gt;</a> 
+  <li><a href="html5_base.htm">&lt;base&gt;</a> 
+  <li><a href="html5_basefont.htm">&lt;basefont&gt;</a> 
+  <li><a href="html5_bdo.htm">&lt;bdo&gt;</a> 
+  <li><a href="html5_big.htm">&lt;big&gt;</a> 
+  <li><a href="html5_blockquote.htm">&lt;blockquote&gt;</a> 
+  <li><a href="html5_body.htm">&lt;body&gt;</a> 
+  <li><a href="html5_br.htm">&lt;br&gt;</a> 
+  <li><a href="html5_button.htm">&lt;button&gt;</a> 
+  <li class="acv"><a 
+  href="html5_canvas.htm">&lt;canvas&gt;</a> 
+  <li><a href="html5_caption.htm">&lt;caption&gt;</a> 
+  <li><a href="html5_center.htm">&lt;center&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;cite&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;code&gt;</a> 
+  <li><a href="html5_col.htm">&lt;col&gt;</a> 
+  <li><a href="html5_colgroup.htm">&lt;colgroup&gt;</a> 
+  <li><a href="html5_command.htm">&lt;command&gt;</a> 
+  <li><a href="html5_datagrid.htm">&lt;datagrid&gt;</a> 
+  <li><a href="html5_datalist.htm">&lt;datalist&gt;</a> 
+  <li><a href="html5_datatemplate.htm">&lt;datatemplate&gt;</a> 
+  <li><a href="html5_dd.htm">&lt;dd&gt;</a> 
+  <li><a href="html5_del.htm">&lt;del&gt;</a> 
+  <li><a href="html5_details.htm">&lt;details&gt;</a> 
+  <li><a href="html5_dialog.htm">&lt;dialog&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;dfn&gt;</a> 
+  <li><a href="html5_dir.htm">&lt;dir&gt;</a> 
+  <li><a href="html5_div.htm">&lt;div&gt;</a> 
+  <li><a href="html5_dl.htm">&lt;dl&gt;</a> 
+  <li><a href="html5_dt.htm">&lt;dt&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;em&gt;</a> 
+  <li><a href="html5_embed.htm">&lt;embed&gt;</a> 
+  <li><a href="html5_eventsource.htm">&lt;event-source&gt;</a> 
+  <li><a href="html5_fieldset.htm">&lt;fieldset&gt;</a> 
+  <li><a href="html5_figure.htm">&lt;figure&gt;</a> 
+  <li><a href="html5_font.htm">&lt;font&gt;</a> 
+  <li><a href="html5_footer.htm">&lt;footer&gt;</a> 
+  <li><a href="html5_form.htm">&lt;form&gt;</a> 
+  <li><a href="html5_frame.htm">&lt;frame&gt;</a> 
+  <li><a href="html5_frameset.htm">&lt;frameset&gt;</a> 
+  <li><a href="html5_head.htm">&lt;head&gt;</a> 
+  <li><a href="html5_header.htm">&lt;header&gt;</a> 
+  <li><a href="html5_hn.htm">&lt;h1&gt; - &lt;h6&gt;</a> 
+  <li><a href="html5_hr.htm">&lt;hr&gt;</a> 
+  <li><a href="html5_html.htm">&lt;html&gt;</a> 
+  <li><a href="html5_i.htm">&lt;i&gt;</a> 
+  <li><a href="html5_iframe.htm">&lt;iframe&gt;</a> 
+  <li><a href="html5_img.htm">&lt;img&gt;</a> 
+  <li><a href="html5_input.htm">&lt;input&gt;</a> 
+  <li><a href="html5_ins.htm">&lt;ins&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;kbd&gt;</a> 
+  <li><a href="html5_label.htm">&lt;label&gt;</a> 
+  <li><a href="html5_legend.htm">&lt;legend&gt;</a> 
+  <li><a href="html5_li.htm">&lt;li&gt;</a> 
+  <li><a href="html5_link.htm">&lt;link&gt;</a> 
+  <li><a href="html5_m.htm">&lt;m&gt;</a> 
+  <li><a href="html5_map.htm">&lt;map&gt;</a> 
+  <li><a href="html5_menu.htm">&lt;menu&gt;</a> 
+  <li><a href="html5_meta.htm">&lt;meta&gt;</a> 
+  <li><a href="html5_meter.htm">&lt;meter&gt;</a> 
+  <li><a href="html5_nav.htm">&lt;nav&gt;</a> 
+  <li><a href="html5_nest.htm">&lt;nest&gt;</a> 
+  <li><a href="html5_noframes.htm">&lt;noframes&gt;</a> 
+  <li><a href="html5_noscript.htm">&lt;noscript&gt;</a> 
+  <li><a href="html5_object.htm">&lt;object&gt;</a> 
+  <li><a href="html5_ol.htm">&lt;ol&gt;</a> 
+  <li><a href="html5_optgroup.htm">&lt;optgroup&gt;</a> 
+  <li><a href="html5_option.htm">&lt;option&gt;</a> 
+  <li><a href="html5_output.htm">&lt;output&gt;</a> 
+  <li><a href="html5_p.htm">&lt;p&gt;</a> 
+  <li><a href="html5_param.htm">&lt;param&gt;</a> 
+  <li><a href="html5_pre.htm">&lt;pre&gt;</a> 
+  <li><a href="html5_progress.htm">&lt;progress&gt;</a> 
+  <li><a href="html5_q.htm">&lt;q&gt;</a> 
+  <li><a href="html5_rule.htm">&lt;rule&gt;</a> 
+  <li><a href="html5_s.htm">&lt;s&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;samp&gt;</a> 
+  <li><a href="html5_script.htm">&lt;script&gt;</a> 
+  <li><a href="html5_section.htm">&lt;section&gt;</a> 
+  <li><a href="html5_select.htm">&lt;select&gt;</a> 
+  <li><a href="html5_small.htm">&lt;small&gt;</a> 
+  <li><a href="html5_source.htm">&lt;source&gt;</a> 
+  <li><a href="html5_span.htm">&lt;span&gt;</a> 
+  <li><a href="html5_strike.htm">&lt;strike&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;strong&gt;</a> 
+  <li><a href="html5_style.htm">&lt;style&gt;</a> 
+  <li><a href="html5_sup_sub.htm">&lt;sub&gt;</a> 
+  <li><a href="html5_sup_sub.htm">&lt;sup&gt;</a> 
+  <li><a href="html5_table.htm">&lt;table&gt;</a> 
+  <li><a href="html5_tbody.htm">&lt;tbody&gt;</a> 
+  <li><a href="html5_td.htm">&lt;td&gt;</a> 
+  <li><a href="html5_textarea.htm">&lt;textarea&gt;</a> 
+  <li><a href="html5_tfoot.htm">&lt;tfoot&gt;</a> 
+  <li><a href="html5_th.htm">&lt;th&gt;</a> 
+  <li><a href="html5_thead.htm">&lt;thead&gt;</a> 
+  <li><a href="html5_time.htm">&lt;time&gt;</a> 
+  <li><a href="html5_title.htm">&lt;title&gt;</a> 
+  <li><a href="html5_tr.htm">&lt;tr&gt;</a> 
+  <li><a href="html5_tt.htm">&lt;tt&gt;</a> 
+  <li><a href="html5_u.htm">&lt;u&gt;</a> 
+  <li><a href="html5_ul.htm">&lt;ul&gt;</a> 
+  <li><a href="html5_phrase_elements.htm">&lt;var&gt;</a> 
+  <li><a href="html5_video.htm">&lt;video&gt;</a> </li></ul></div>
+<div id="maincontent">
+<H1>HTML5 &lt;canvas&gt; 标签</H1>
+<div>
+<h2>定义和用法</h2>
+<p>&lt;canvas&gt; 标签定义图形，比如图表和其他图像。</p></div>
+<div>
+<h2>HTML 4.01 与 HTML5 之间的差异</h2>
+<p>&lt;canvas&gt; 标签是 HTML5 中的新标签。</p></div>
+<div>
+<h2>&lt;canvas&gt; 的历史</h2>
+<p>这个 HTML 元素是为了客户端矢量图形而设计的。它自己没有行为，但却把一个绘图 API 展现给客户端 JavaScript 
+以使脚本能够把想绘制的东西都绘制到一块画布上。</p>
+<p>&lt;canvas&gt; 标记由 Apple 在 Safari 1.3 Web 浏览器中引入。对 HTML 的这一根本扩展的原因在于，HTML 在 
+Safari 中的绘图能力也为 Mac OS X 桌面的 Dashboard 组件所使用，并且 Apple 希望有一种方式在 Dashboard 
+中支持脚本化的图形。</p>
+<p>Firefox 1.5 和 Opera 9 都跟随了 Safari 的引领。这两个浏览器都支持 &lt;canvas&gt; 标记。</p>
+<p>我们甚至可以在 IE 中使用 &lt;canvas&gt; 标记，并在 IE 的 VML 支持的基础上用开源的 JavaScript 代码（由 
+Google 发起）来构建兼容性的画布。参见：<a title=ExplorerCanvas 
+href="http://excanvas.sourceforge.net/">http://excanvas.sourceforge.net/</a>。</p>
+<p>&lt;canvas&gt; 的标准化的努力由一个 Web 浏览器厂商的非正式协会在推进，目前 &lt;canvas&gt; 已经成为 HTML5 
+草案中一个正式的标签。参见：<a title="HTML5" 
+href="http://www.whatwg.org/specs/web-apps/current-work/">http://www.whatwg.org/specs/web-apps/current-work/</a></p></div>
+<div>
+<h2>&lt;canvas&gt; 标记和 SVG 以及 VML 之间的差异</h2>
+<p>&lt;canvas&gt; 标记和 SVG 以及 VML 之间的一个重要的不同是，&lt;canvas&gt; 有一个基于 JavaScript 的绘图 
+API，而 SVG 和 VML 使用一个 XML 文档来描述绘图。</p>
+<p>这两种方式在功能上是等同的，任何一种都可以用另一种来模拟。从表面上看，它们很不相同，可是，每一种都有强项和弱点。例如，SVG 
+绘图很容易编辑，只要从其描述中移除元素就行。</p>
+<p>要从同一图形的一个 &lt;canvas&gt; 标记中移除元素，往往需要擦掉绘图重新绘制它。</p></div>
+<div>
+<h2>如何使用 &lt;canvas&gt; 标记绘图</h2>
+<p>大多数 Canvas 绘图 API 都没有定义在 &lt;canvas&gt; 元素本身上，而是定义在通过画布的 <a 
+title="HTML DOM getContext() 方法" 
+href="/htmldom/met_canvas_getcontext.htm">getContext() 方法</a>获得的一个“绘图环境”对象上。</p>
+<p>Canvas API 也使用了路径的表示法。但是，路径由一系列的方法调用来定义，而不是描述为字母和数字的字符串，比如调用 beginPath() 和 
+arc() 方法。</p>
+<p>一旦定义了路径，其他的方法，如 fill()，都是对此路径操作。绘图环境的各种属性，比如 fillStyle，说明了这些操作如何使用。</p>
+<P class=note><SPAN>注释：</SPAN>Canvas API 非常紧凑的一个原因上它没有对绘制文本提供任何支持。要把文本加入到一个 
+&lt;canvas&gt; 图形，必须要么自己绘制它再用位图图像合并它，或者在 &lt;canvas&gt; 上方使用 CSS 定位来覆盖 HTML 
+文本。</p></div>
+<div>
+<h2>例子：</h2><pre>&lt;script type="text/javascript"&gt;
+function drawCanvas()
+{
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.fillStyle='#FF0000';
+ctx.fillRect(0,0,80,100);
+}
+&lt;/script&gt;
+...
+&lt;canvas id="myCanvas"&gt;
+your browser does not support the canvas tag
+&lt;/canvas&gt;
+</pre></div>
+<div>
+<h2>属性</h2>
+<TABLE class="dataintable">
+  <tbody>
+  <tr>
+    <th>属性</th>
+    <th>值</th>
+    <th>描述</th></tr>
+  <tr>
+    <td>height</td>
+    <td><I>pixels</I></td>
+    <td>设置 canvas 的高度。</td></tr>
+  <tr>
+    <td>width</td>
+    <td><I>pixels</I></td>
+    <td>设置 canvas 的宽度。</td></tr></TBODY></TABLE>
+<h3>标准属性</h3><pre>class, contenteditable, contextmenu, dir, draggable, id, irrelevant, 
+lang, ref, registrationmark, tabindex, template, title</pre>
+<p>如需完整的描述，请访 <a href="html5_ref_standardattributes.htm">HTML5 中标准属性</a>。</p>
+<h3>事件属性</h3><pre>onabort, onbeforeunload, onblur, onchange, onclick, oncontextmenu, 
+ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, 
+ondragstart, ondrop, onerror, onfocus, onkeydown, onkeypress, onkeyup, 
+onload, onmessage, onmousedown, onmousemove, onmouseover, onmouseout, 
+onmouseup, onmousewheel, onresize, onscroll, onselect, onsubmit, onunload
+</pre>
+<p>如需完整的描述，请访 <a href="html5_ref_eventattributes.htm">HTML5 
+中事件属性</a>。</p></div>
+<div>
+<h2>参阅</h2>
+<p><a title="HTML DOM Canvas 对象" href="/htmldom/dom_obj_canvas.htm">HTML DOM 
+Canvas 对象</a></p></div></div>
+  <div class="cyr"><p class="c">Copyright &copy;  2009-2011 <a href="http://www.html5china.com">HTML5中文网</a> 版权所有 
+    </p>
+    </div></div>
+</body>
+</html>
